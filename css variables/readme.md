@@ -51,11 +51,12 @@ document.getElementById('light-theme-btn').addEventListener('click', ()=> {
 * structure>> --(name of your choise)-(css stuff): (value);
 * we use custom var like this:
   ```
-  .child{
+.child{
     background-color: var(--div-background-color);
     padding: var(--div-margin);
 }
-
+  ```
+  ```
 .one{
     --div-background-color: blue;
     --text-color: white;
